@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-color: #050505;
+  --color-bg-card: #0f0f0f;
+  --color-bg-text: #eabb7a;
+  --color-primary: #ffffff;
+  --color-secondary-color: #a1a1aa;
+  --color-border-color: #000000;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg-color);
+  color: var(--color-primary);
+  font-family: Inter, sans-serif;
+}
+
+.section {
+  @apply max-w-7xl mx-auto px-6 lg:px-12;
+}
